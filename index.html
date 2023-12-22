@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Сайт на заказ</title>
+		<link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css" />
+		<link rel="SHORTCUT ICON" href="img/favicon.ico" type="image/x-icon" />
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+		<script src="js/script.js" defer></script>
+  </head>
+  <body>
+		<div class="page-wrap">
+			<header class="header">
+				<div class="container">
+					<a href="#" class="logo-link">
+						<img src="img/saytodel.png" alt="logo" class="logo-img">
+					</a>
+					<menu class="header-menu">
+						<ul class="menu-list">
+							<li class="menu-item"><a href="#hero" class="menu-link">Главная</a></li>
+							<li class="menu-item"><a href="#about" class="menu-link">О себе</a></li>
+							<li class="menu-item"><a href="#advant" class="menu-link">Преимущества</a></li>
+							<li class="menu-item"><a href="#portf" class="menu-link">Портфолио</a></li>
+							<li class="menu-item"><a href="#price" class="menu-link">Цена</a></li>
+							<li class="menu-item"><a href="#contacts" class="menu-link">Контакты</a></li>
+							<li class="menu-item"><a href="#order" class="menu-link">Заказать</a></li>
+						</ul>
+						<button class="header__burger-btn">
+							<span class="header__burger-icon">
+								<?xml version="1.0" ?>
+								<svg
+									fill="none"
+									height="24"
+									viewBox="0 0 24 24"
+									width="24"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<g clip-path="url(#clip0_105_1724)">
+										<path
+											d="M3 6.00098H21M3 12.001H21M3 18.001H21"
+											stroke="#292929"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+											stroke-width="2"
+										/>
+									</g>
+									<defs>
+										<clipPath id="clip0_105_1724">
+											<rect
+												fill="white"
+												height="24"
+												transform="translate(0 0.000976562)"
+												width="24"
+											/>
+										</clipPath>
+									</defs>
+								</svg>
+							</span>
+            </button>
+					</menu>
+				</div>
+			</header>
+
+			<div id="scrollTop" class="scrollBtn scrollBtn_hide">
+				<img src="img/slide-up.png" alt="icon" class="icon">
+			</div>
+
+			<section class="hero" id="hero">
+				<div class="container">
+					<div class="hero-text">
+						<h1 class="hero-title title">
+							Нужен сайт?
+						</h1>
+						<p class="hero-descr">
+							Добро пожаловать на мой лендинг заказа разработки сайта! Я — фронтенд разработчик фрилансер с
+							опытом работы в создании уникальных и современных веб-сайтов. Если вы ищете профессионала,
+							который сможет воплотить ваши идеи в жизнь и создать сайт, который будет привлекать внимание и
+							удовлетворять все ваши потребности, то вы попали по адресу.
+						</p>
+						<button class="hero-btn btn"><a href="https://join.skype.com/invite/dCqaxKBL4Kwb" target="_blank" rel="noopener noreferrer"><img src="img/iскайп.svg" alt="icon" class="btn-icon"></a>Связаться</button>
+					</div>
+					<img src="img/Itsme.png" alt="image" class="hero-img">
+				</div>
+			</section>
+
+			<section class="about" id="about">
+				<div class="container">
+					<h2 class="section-title title">
+						О себе
+					</h2>
+					<p class="about-descr">
+						Привет! Меня зовут Борис Горшунов, я фронтенд разработчик с опытом работы на фрилансе. Мои навыки включают разработку и создание сайтов на HTML, CSS и JavaScript. Я также знаком с фреймворками, такими как JQuery, что позволяет мне создавать динамические и интерактивные веб-страницы.
+						Я имею опыт работы с различными платформами, включая WordPress, Tilda и другие онлайн и офлайн конструкторы сайтов. Это позволяет мне создавать сайты, которые легко адаптируются под различные потребности и требования клиентов.
+						Кроме того, я прошел курсы по UI/UX дизайну, что позволяет мне создавать эстетически привлекательные и удобные в использовании веб-интерфейсы. Я стремлюсь создавать сайты, которые не только красивы и функциональны, но и учитывают потребности и предпочтения пользователей.
+						Если вы ищете профессионала, который сможет создать для вас сайт, который будет соответствовать вашим требованиям и ожиданиям, я готов взяться за этот проект. Свяжитесь со мной, и мы сможем обсудить детали и начать работу над вашим новым веб-сайтом.
+					</p>
+				</div>
+			</section>
+
+			<section class="advant" id="advant">
+				<div class="container">
+					<h2 class="section-title title">Преимущества обращения ко мне</h2>
+					<div class="advant-wrap">
+						<div class="advant-card">
+							<div class="img-wrap">
+								<img src="img/images/developer2.svg" alt="image" class="card-img dev">
+							</div>
+							<p class="card-descr">
+								<b class="title" style="font-size: 1.5em;">Опыт разработки сайтов на HTML, CSS и JS:</b><br> Я обладаю глубокими знаниями и опытом в создании
+								сайтов с использованием основных языков веб-разработки. Это позволяет мне создавать
+								качественные и функциональные сайты, которые будут работать без сбоев.
+							</p>
+						</div>
+						<div class="advant-card">
+							<div class= class="img-wrap">
+								<img src="img/images/developer1.svg" alt="image" class="card-img prog">
+							</div>	
+							<p class="card-descr">
+								<b class="title" style="font-size: 1.5em;">Изучение фреймворка Angular:</b><br><br> В настоящее время я активно изучаю фреймворк Angular, что
+								позволяет мне создавать более сложные и масштабируемые веб-приложения. Если вам нужен сайт с
+								динамическими функциями и интерактивностью, я готов предложить вам решение на основе
+								Angular.
+							</p>
+						</div>
+						<div class="advant-card">
+							<div class= class="img-wrap">
+								<img src="img/images/individual.svg" alt="image" class="card-img">
+							</div>
+							<p class="card-descr">
+								<b class="title" style="font-size: 1.5em;">Индивидуальный подход:</b><br><br> Я всегда стараюсь понять потребности и цели каждого клиента. Работая
+								со мной, вы можете быть уверены, что ваш сайт будет создан именно таким, каким вы его
+								задумываете. Я готов принять любые требования и предоставить вам индивидуальное решение.
+							</p>
+						</div>
+						<div class="advant-card">
+							<div class= class="img-wrap">
+								<img src="img/images/disaighner.svg" alt="image" class="card-img">
+							</div>
+							<p class="card-descr">
+								<b class="title" style="font-size: 1.5em;">Современный и привлекательный дизайн:</b><br> Я обладаю хорошим чувством стиля и дизайна, что
+								позволяет мне создавать сайты, которые будут выделяться среди конкурентов. Ваш сайт будет иметь
+								современный и привлекательный дизайн, который будет привлекать внимание посетителей.
+							</p>
+						</div>
+						<div class="advant-card">
+							<div class= class="img-wrap">
+								<img src="img/images/speed1.svg" alt="image" class="card-img">
+							</div>
+							<p class="card-descr">
+								<b class="title" style="font-size: 1.5em;">Быстрая и качественная разработка:</b><br> Я стремлюсь к тому, чтобы каждый проект был выполнен в
+								срок и соответствовал высоким стандартам качества. Я работаю эффективно и несу ответственность
+								за каждый этап разработки.
+							</p>
+						</div>
+						<div class="advant-card">
+							<div class= class="img-wrap">
+								<img src="img/images/podderzhka.svg" alt="image" class="card-img">
+							</div>
+							<p class="card-descr">
+								<b class="title" style="font-size: 1.5em;">Поддержка и обслуживание:</b><br><br> После создания вашего сайта я готов предоставить вам поддержку и
+								обслуживание. Если у вас возникнут вопросы или проблемы, я всегда буду готов помочь вам решить
+								их.
+							</p>
+						</div>
+					</div>
+					<p class="advant-text">
+						Обращаясь ко мне, вы получаете надежного и опытного разработчика, который готов создать для вас
+						сайт, который будет отвечать всем вашим требованиям и ожиданиям. Не теряйте времени, свяжитесь
+						со мной прямо сейчас и вместе мы создадим ваш идеальный веб-сайт!
+					</p>
+				</div>
+			</section>
+
+			<section class="portf" id="portf">
+				<div class="container">
+					<h2 class="section-title title">Портфолио</h2>
+					<div class="portf-wrap">
+						<ul class="portf__tabs-btn--wrap tabs">
+              <li class="tabs__item">
+                <button class="tabs__btn btn-reset" data-tab="#one">
+                  Пример блогов
+                </button>
+              </li>
+              <li class="tabs__item">
+                <button class="tabs__btn btn-reset" data-tab="#two">
+                  Пример лендингов
+                </button>
+              </li>
+            </ul>
+						<div class="tab_content" id="one">
+							<div class="tab_content-left">
+								<p class="tab_content-text">
+									У меня всего 2 блога. Первый — о технологиях создания
+									сайтов. Это мой первый блог, когда я еще знал о
+									строительстве сайтов совсем немного. Тем не менее я его
+									сделал, заполнял статьями по мере изучения этого вопроса.
+									Второй блог — это блог об информационном маркетинге.
+									Некоторое время я работал в инфобизнесе и у меня
+									получалось. Но вскоре я понял, что это не мое. Больше
+									всего мне нравится творить своими руками. Я начал учиться
+									на веб-разработчика.
+								</p>
+							</div>
+							<div class="tab_content-right">
+								<div class="tab_content-img--blog blog1">
+									<div class="img-wrap--blog">
+										<p class="blog-text">
+											Все о сайтах. Сделан на WordPress
+										</p>
+										<a href="https://bgorshunov.ru" target="_blank" class="blog1-link">
+											<button class="blog-btn btn">
+												Посмотреть
+											</button>
+										</a>
+									</div>
+								</div>
+								<div class="tab_content-img--blog blog2">
+									<div class="img-wrap--blog">
+										<p class="blog-text">
+											Все об инфобизнесе. Сделан на WordPress
+										</p>
+										<a href="https://infobiz.bgorshunov.ru/" target="_blank" class="blog2-link">
+											<button class="blog-btn btn">
+												Посмотреть
+											</button>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tab_content" id="two">
+							<div class="tab_content-left">
+								<p class="tab_content-text">
+									Лендингов я сделал достаточно много. Примерно больше 30.
+                	Когда я занимался инфомаркетингом, мне приходилось делать
+                	подписные, продающие, информационные страницы.
+                	На подписных страницах (лендингах) я собрал не малую
+                	подписную базу, на которой зарабатывал. Кроме этого
+                	представлены часть лендингов, сделанные в процессе обучения
+                	в Skillbox, на интенсивах, курсах.
+								</p>
+							</div>
+							<div class="swiper tab_content-right">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide">
+										<div class="tab_content-img lend1">
+											<div class="img-wrap">
+												<p class="blog-text">
+													Лендинг заказа бургера. Верстка HTML, CSS, JS, Angular
+												</p>
+												<a href="https://bgorsh.github.io/burgers/" target="_blank" class="blog2-link">
+													<button class="blog-btn btn">
+														Посмотреть
+													</button>
+												</a>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="tab_content-img lend2">
+											<div class="img-wrap">
+												<p class="blog-text">
+													Лендинг технологические системы. HTML, CSS, JS
+												</p>
+												<a href="http://evklid.bgorshunov.ru/" target="_blank" class="blog2-link">
+													<button class="blog-btn btn">
+														Посмотреть
+													</button>
+												</a>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="tab_content-img lend3">
+											<div class="img-wrap">
+												<p class="blog-text">
+													Лендинг отеля, заказ номера. HTML, CSS, JS
+												</p>
+												<a href="http://hotels.bgorshunov.ru/" target="_blank" class="blog2-link">
+													<button class="blog-btn btn">
+														Посмотреть
+													</button>
+												</a>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="tab_content-img lend4">
+											<div class="img-wrap">
+												<p class="blog-text">
+													Лендинг художественной галереи. HTML, CSS, JS
+												</p>
+												<a href="http://projects.bgorshunov.ru/blanchard/" target="_blank" class="blog2-link">
+													<button class="blog-btn btn">
+														Посмотреть
+													</button>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- If we need navigation buttons -->
+								<div class="swiper-button-prev"></div>
+								<div class="swiper-button-next"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="price" id="price">
+				<div class="container">
+					<h2 class="section-title title">
+						Примерные цены на разработку
+					</h2>
+					<div class="price-wrap">
+						<div class="accord">
+							<div class="accord-sect">
+								<div class="accord-header">
+									<div class="header-text">
+										<h3 class="header-title title">
+											Одностраничные сайты
+										</h3>
+									</div>
+									<button class="header-icon--btn">
+										<img src="img/arrow-down.svg" alt="icon" class="header-icon">
+									</button>
+								</div>
+								<div class="accord-body">
+									<ul class="accord-body--list">
+										<li class="accord-body--item">
+											<p class="accord-item--text">Правки по вашему сайту</p>
+											<p class="accord-item--text">1200 ₽/ч</p>
+										</li>
+										<li class="accord-body--item">
+											<p class="accord-item--text">Разработка сайта с нуля</p>
+											<p class="accord-item--text">от 15000 ₽</p>
+										</li>
+										<li class="accord-body--item">
+											<p class="accord-item--text">Разработка новых страниц</p>
+											<p class="accord-item--text">от 5000 ₽</p>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="accord-sect">
+								<div class="accord-header">
+									<div class="header-text">
+										<h3 class="header-title title">
+											Многостраничные сайты
+										</h3>
+									</div>
+									<button class="header-icon--btn">
+										<img src="img/arrow-down.svg" alt="icon" class="header-icon">
+									</button>
+								</div>
+								<div class="accord-body">
+									<ul class="accord-body--list">
+										<li class="accord-body--item">
+											<p class="accord-item--text">Сайт под ключ</p>
+											<p class="accord-item--text">от 30000 ₽</p>
+										</li>
+										<li class="accord-body--item">
+											<p class="accord-item--text">Посадка готовой верстки
+												на Wordpress</p>
+											<p class="accord-item--text">от 50000 ₽</p>
+										</li>
+										<li class="accord-body--item">
+											<p class="accord-item--text">Доработка дизайна страниц</p>
+											<p class="accord-item--text">от 5000 ₽</p>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="accord-sect">
+								<div class="accord-header">
+									<div class="header-text">
+										<h3 class="header-title title">
+											Интеграции сторонних сервисов
+										</h3>
+									</div>
+									<button class="header-icon--btn">
+										<img src="img/arrow-down.svg" alt="icon" class="header-icon">
+									</button>
+								</div>
+								<div class="accord-body">
+									<ul class="accord-body--list">
+										<li class="accord-body--item">
+											<p class="accord-item--text">Подключение метрики</p>
+											<p class="accord-item--text">от 1200 ₽</p>
+										</li>
+										<li class="accord-body--item">
+											<p class="accord-item--text">Подключение textolite</p>
+											<p class="accord-item--text">от 1000 ₽</p>
+										</li>
+										<li class="accord-body--item">
+											<p class="accord-item--text">Подключение чат-бота</p>
+											<p class="accord-item--text">от 3000 ₽</p>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<picture class="pic-right">
+							<img src="img/wallet.png" alt="image" class="right-img">
+						</picture>
+					</div>
+				</div>
+			</section>
+
+			<section class="contacts" id="contacts">
+				<div class="container">
+					<div class="contacts-wrap">
+						<div class="contacts-text">
+							<h2 class="section-title title">Контакты</h2>
+							<div class="contacts-text--wrap">
+								<div class="contacts-location">
+									<img src="img/location_adress.png" alt="icon" class="location-icon">
+									<p class="location-text">
+										394036 Воронеж
+									</p>
+								</div>
+								<div class="contacts-location">
+									<img src="img/email.png" alt="icon" class="location-icon">
+									<p class="location-text">
+										bgorshunov65@bk.ru
+									</p>
+								</div>
+								<div class="contacts-location soc">
+									<div class="contacts-location--text">
+										<img src="img/web_world.png" alt="icon" class="location-icon">
+										<div class="location-text">
+											Связаться в один клик:
+										</div>
+									</div>
+									<div class="socnet-icons">
+										<a href="https://t.me/+79009519115" target="_blank" class="socnet-telega">
+											<img src="img/telegram.svg" alt="icon" class="telega-icon">
+										</a>
+										<a href="https://wa.me/79009519115" target="_blank" class="socnet-whatsapp">
+											<img src="img/whatsapp.svg" alt="icon" class="whatsapp-icon">
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="contacts-form" id="order">
+							<h2 class="section-title title">Заявка на разработку</h2>
+							<p class="form-text">
+								Оставьте контакты, по которым я смогу с вами связаться и обсудить проект
+							</p>
+							<form action="#" id="form" class="contacts-form">
+								<input type="text" name="name" id="name" placeholder="Имя" required data-validate-field="name" class="form-input _error">
+								<input type="email" name="email" id="email" placeholder="Email" required data-validate-field="email" class="form-input _error">
+								<input type="phone" name="phone" id="phone" placeholder="Телефон" required data-validate-field="phone" class="form-input _error">
+								<div class="privacy-wrap">
+									<input type="checkbox" name="agreement" checked id="checkbox">
+									<label  for="checkbox" class="form-privacy">Соглашаюсь с обработкой моих персональных данных</label>
+								</div>
+								<button class="submit-btn">Заказать</button>
+							</form>
+							<div id="message"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<footer class="footer">
+				<div class="container">
+					<img src="img/saytodel.png" alt="logo" class="footer-logo">
+					<p class="footer-copyright">
+						&copy; All rights reserved. Created by Gorshunov, <script>var year = new Date();
+							document.write(year.getFullYear());</script> | <a href="privacy.html" target="_blank" class="footer-policy">Политика конфедициальности</a>
+					</p>
+					<script src="https://yastatic.net/share2/share.js"></script>
+          <div class="ya-share2" data-curtain data-size="l" data-shape="round" data-services="vkontakte,odnoklassniki,telegram"></div>
+				</div>
+			</footer>
+
+		</div>
+		<script src="js/just-validate.min.js"></script>
+    <script src="js/inputmask.min.js"></script>
+	</body>
+</html>
